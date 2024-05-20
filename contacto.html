@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    <section class="contenedor-section">
+        
+        <div class="map-iframe">
+            <iframe src="https://www.google.com/maps/d/embed?mid=1lapItsdtQcvEdPxzHpJdSnHaoLDFYWE&ehbc=2E312F&noprof=1" class="mapa2" ></iframe> 
+        </div>
+        <div class="form-contenedor">
+            <h1 class="titulo-form">Formulario de Contacto</h1>
+            <h2 class="titulo-form">Envianos un mensaje</h2>
+            <form action="https://formspree.io/f/mdoqjwvg" method="post" class="form">
+                <input class="box item1" 
+                type="text" name="nombres"
+                placeholder="Apellido y Nombre"
+                autocomplete="off">
+                <select name="Ciudad"
+                 class="box item2">
+                       <option value="">Ciudad</option>
+                       <option value="">Bella Vista</option>
+                       <option value="">San Miguel</option>
+                       <option value="">José C Paz</option>
+                       <option value="">Hurlingam</option>
+            </select>
+            <input class="box item3" 
+            type="text" name="telefono"
+            placeholder="Número de Teléfono"
+            autocomplete="off">
+
+            <select name="Ciudad"
+                 class="box item4">
+                       <option value="">Provincias</option>
+                       <option value="">Bs As</option>
+                       <option value="">Santa FeS</option>
+                       <option value="">Entre Rios</option>
+                       <option value="">La Pampa</option>
+            </select>
+            <input class="box item5"
+            type="email"name="email"
+            placeholder="Correo electrónico"
+            autocomplete="off">
+
+            <textarea class="box item6" name="" cols="30" rows="6">  
+            </textarea>
+
+            <input class="submit" 
+            type="submit" name="Enviar"
+            placeholder="Enviar"
+            value="Enviar">
+            </form>
+         </div>
+     
+    </section>
+</body>
+<footer class="footer">
+    <a href="index.html">Volver a Página Principal </a>
+</footer>
+</html>
